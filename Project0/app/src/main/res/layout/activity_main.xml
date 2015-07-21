@@ -1,0 +1,74 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context=".MainActivity">
+
+        <TextView
+            style="@style/Base.TextAppearance.AppCompat.Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/title" />
+
+
+        <Button
+            android:id="@+id/project1"
+            style="@style/ProjectButton"
+            android:onClick="showToast"
+            android:text="@string/project1" />
+
+        <Button
+            android:id="@+id/project2"
+            style="@style/ProjectButton"
+            android:onClick="showToast"
+            android:text="@string/project2" />
+
+        <Button
+            android:id="@+id/project3"
+            style="@style/ProjectButton"
+            android:onClick="showToast"
+            android:text="@string/project3" />
+
+        <Button
+            android:id="@+id/project4"
+            style="@style/ProjectButton"
+            android:onClick="showToast"
+            android:text="@string/project4" />
+
+        <Button
+            android:id="@+id/project5"
+            style="@style/ProjectButton"
+            android:onClick="showToast"
+            android:text="@string/project5" />
+
+        <Button
+            android:id="@+id/project6"
+            style="@style/ProjectButton"
+            android:onClick="showToast"
+            android:text="@string/project6" />
+
+        <Button
+            android:id="@+id/project7"
+            style="@style/SpecialProjectButton"
+            android:onClick="showToast"
+            android:text="@string/project7" />
+
+        <Button
+            android:id="@+id/project8"
+            style="@style/SpecialProjectButton"
+            android:onClick="showToast"
+            android:text="@string/project8" />
+
+
+    </LinearLayout>
+</ScrollView>
